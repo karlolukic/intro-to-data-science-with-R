@@ -3,3 +3,15 @@
 # Intro to Data Science with R 
 
 This GitHub repository contains the R code for the "TechConference 2021: Intro to Data Science with R" impulse session. 
+
+We will explore [this Kaggle dataset](https://www.kaggle.com/NUFORC/ufo-sightings) of worldwide UFO sightings! 
+
+> [The] dataset contains over 80,000 reports of UFO sightings over the last century.
+
+We will add  [another Kaggle dataset](https://www.kaggle.com/parulpandey/us-international-air-traffic-data) of US international air traffic to our data exploration.
+
+* If you're interested in exploring the data, please find the two datasets in the `01_data` folder.
+
+* If you get stuck exploring the data yourself or need some inspiration for how to tackle the data, feel free to look at the solution script in the `02_scripts/solution_script_explore_ufo_sightings` R script.
+
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpngimg.com%2Fuploads%2Fufo%2Fufo_PNG14397.png&f=1&nofb=1)
