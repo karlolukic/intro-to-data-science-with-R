@@ -13,3 +13,5 @@ We will add  [another Kaggle dataset](https://www.kaggle.com/parulpandey/us-inte
 * If you're interested in exploring the data, please find the two datasets in the `01_data` folder.
 
 * If you get stuck exploring the data yourself or need some inspiration for how to tackle the data, feel free to look at the solution R script in the `02_scripts` folder.
+
+![](https://github.com/karlolukic/intro_to_data_science_with_r_2021_10_08/blob/main/04_misc/r_ufo_logo/r_ufo_logo.png?raw=true)
