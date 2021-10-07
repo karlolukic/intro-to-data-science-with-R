@@ -13,5 +13,3 @@ We will add  [another Kaggle dataset](https://www.kaggle.com/parulpandey/us-inte
 * If you're interested in exploring the data, please find the two datasets in the `01_data` folder.
 
 * If you get stuck exploring the data yourself or need some inspiration for how to tackle the data, feel free to look at the solution R script in the `02_scripts` folder.
-
-![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpngimg.com%2Fuploads%2Fufo%2Fufo_PNG14397.png&f=1&nofb=1)
