@@ -1,4 +1,4 @@
-# Title: Explore UFO Sightings
+# Title: Exploration of UFO Sightings
 # Author: Karlo Lukic
 # Date: 2021-10-08
 

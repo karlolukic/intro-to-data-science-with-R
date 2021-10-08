@@ -1,5 +1,5 @@
 ---
-title: "Demonstration of R Notebook"
+title: "Exploration of UFO Sightings"
 author: "Karlo Lukic"
 date: "2021-10-08"
 output: html_notebook

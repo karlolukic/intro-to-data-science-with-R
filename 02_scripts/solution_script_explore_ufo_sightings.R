@@ -1,4 +1,4 @@
-# Title: Solution Script - Explore UFO Sightings
+# Title: Solution Script - Exploration of UFO Sightings
 # Author: Karlo Lukic
 # Date: 2021-10-08
 
