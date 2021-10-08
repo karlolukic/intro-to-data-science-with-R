@@ -2,6 +2,7 @@ Intro to Data Science with R
 ========================================================
 author: Karlo Lukic
 date: 2021-10-08
+autosize: true
 
 My Goal Today Is To Convince You That:
 ========================================================
