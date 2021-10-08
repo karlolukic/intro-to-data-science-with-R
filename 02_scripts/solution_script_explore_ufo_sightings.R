@@ -4,7 +4,6 @@
 
 # packages
 library(tidyverse)
-library(scales)
 library(gganimate)
 library(plotly)
 library(corrr)
@@ -27,7 +26,6 @@ n_sightings_per_year_df <- ufos_df %>%
 
 ggplot(n_sightings_per_year_df, aes(x = year, y = n_sightings)) + 
   geom_line() +
-  scale_y_continuous(labels = label_comma()) +
   labs(y = "Number of UFO Sightings", x = "", 
        title = "Number of UFO Sightings", subtitle = "Per Year") + 
   theme_bw()
@@ -47,7 +45,6 @@ p <- ggplot(n_sightings_per_year_and_country_df,
                 color = fct_relevel(country_name, 
                                     unique(n_sightings_per_year_and_country_df$country_name)))) + 
   geom_line() +
-  scale_y_continuous(labels = label_comma()) +
   labs(y = "Number of UFO Sightings", x = "", color = "Country:",
        title = "Number of UFO Sightings", subtitle = "Per Year and Country") + 
   theme_bw()
@@ -69,7 +66,6 @@ ufos_df %>%
   arrange(-prop) %>% 
   ggplot(., aes(x = reorder(shape, prop), y = prop, fill = shape)) + 
   geom_col(show.legend = F) + 
-  scale_y_continuous(label = label_percent()) +
   coord_flip() + 
   labs(title = "UFO Shapes", subtitle = "By Number of Sightings", 
        x = "", y = "") + 
@@ -87,7 +83,6 @@ ggplot(n_sightings_per_year_and_ufo_type_df,
        aes(x = year, y = n_sightings, 
            color = fct_relevel(shape, five_major_shapes_of_ufos))) + 
   geom_line() +
-  scale_y_continuous(labels = label_comma()) +
   labs(y = "Number of UFO Sightings", x = "", color = "UFO Shape:",
        title = "Number of UFO Sightings", subtitle = "Per Year and UFO Shape") + 
   theme_bw() 
@@ -118,7 +113,6 @@ us_sightings_flights_df %>%
                        "n_flights_in_thousands" = "Domestic Flights (in thousands)")) %>% 
   ggplot(., aes(x = year, y = value, color = name)) + 
   geom_line() +
-  scale_y_continuous(labels = label_comma()) +
   labs(y = "Total Number", x = "", color = "Variable:",
        title = "Correlation Between UFO Sigthings and Domestic Flights in US", 
        subtitle = "Per Year") + 
