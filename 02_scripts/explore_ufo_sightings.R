@@ -1,4 +1,4 @@
-# Title: Demonstration of R Script 
+# Title: Explore UFO Sightings
 # Author: Karlo Lukic
 # Date: 2021-10-08
 
