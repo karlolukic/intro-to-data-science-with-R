@@ -26,6 +26,6 @@ There are two ways to start analyzing the data:
 
 * Check out [this very cool video by Yihui Xie](https://www.rstudio.com/resources/rstudioconf-2020/one-r-markdown-document-fourteen-demos/) on what you can do with R Markdown!
 
-* Check out [this series of free video](https://www.rstudio.com/collections/rstudio-essentials/) from RStudio on how to code in R.
+* Check out [this series of free videos from RStudio](https://www.rstudio.com/collections/rstudio-essentials/) on how to code in R.
 
 ![](https://github.com/karlolukic/intro_to_data_science_with_r_2021_10_08/blob/main/04_misc/r_ufo_logo/r_ufo_logo.png?raw=true)
